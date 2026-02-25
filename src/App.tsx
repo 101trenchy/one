@@ -12,7 +12,7 @@ function App() {
   const [showCursor, setShowCursor] = useState(true);
   const [copied, setCopied] = useState(false);
   const fullText = '>one life, its worth an attempt';
-  const contractAddress = '0x1234567890123456789012345678901234567890';
+  const contractAddress = 'not yet';
 
   useEffect(() => {
     const disableContextMenu = (e: MouseEvent) => {
@@ -64,7 +64,7 @@ function App() {
   };
 
   const handleTwitterClick = () => {
-    window.open('https://twitter.com', '_blank');
+    window.open('https://x.com/i/communities/2026694893356081257', '_blank');
   };
 
   return (
