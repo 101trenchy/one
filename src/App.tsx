@@ -12,7 +12,7 @@ function App() {
   const [showCursor, setShowCursor] = useState(true);
   const [copied, setCopied] = useState(false);
   const fullText = '>one life, its worth an attempt';
-  const contractAddress = 'not yet';
+  const contractAddress = 'FATnpdu8pku9A4Z6Rc62T7rirYP6EjNHJjM4yd3Ppump';
 
   useEffect(() => {
     const disableContextMenu = (e: MouseEvent) => {
